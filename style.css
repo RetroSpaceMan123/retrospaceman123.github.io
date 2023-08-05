@@ -45,3 +45,14 @@ nav ul li:hover {
 body {
     text-align: center;
 }
+
+#idcard {
+    border: 3px dotted white;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+#idcard img {
+    border: 3px double white;
+}
