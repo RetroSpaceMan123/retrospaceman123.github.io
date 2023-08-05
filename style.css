@@ -1,23 +1,30 @@
+header {
+    text-align: center;
+}
+
 nav {
     position: sticky;
     background-color: aliceblue;
+    border: 3px dotted black;
+    border-radius: 5px;
 }
 
 nav ul {
     list-style-type: none;
-    background-color: lightcoral;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 0px;
     justify-content: space-evenly;
+    padding: 0;
     margin: 0;
 }
 
 nav ul li {
     display: inline-flex;
     background-color: lightgreen;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 0;
+    border: 3px solid black;
+    padding: 10px;
     margin: 0;
+    width: 100px;
+    height: 10px;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
 }
