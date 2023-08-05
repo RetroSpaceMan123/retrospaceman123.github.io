@@ -1,0 +1,23 @@
+nav {
+    position: sticky;
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: lightcoral;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    background-color: lightgreen;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    margin: 0;
+}
