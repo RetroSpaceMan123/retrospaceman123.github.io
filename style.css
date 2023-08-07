@@ -2,6 +2,7 @@ html {
     background-color: black;
     font-family: sans-serif;
     color: white;
+    background-image: url("images/starPattern.png");
 }
 
 header {
@@ -68,6 +69,7 @@ form {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    background-color: black;
 }
 
 form input, form textarea {
@@ -81,6 +83,10 @@ form button {
     background-color: grey;
     border: 3px dotted white;
     color: white;
+}
+
+.text_box {
+    background-color: black;
 }
 
 .project_card {
