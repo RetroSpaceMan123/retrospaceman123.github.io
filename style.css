@@ -67,3 +67,20 @@ form button {
     border: 3px dotted white;
     color: white;
 }
+
+.project_card {
+    display: inline-block;
+    text-align: center;
+    border: 3px dotted white;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    width: 320px;
+    height: 320px;
+    background-color: gray;
+}
+
+#project_cards {
+    display: flex;
+    justify-content: center;
+}
