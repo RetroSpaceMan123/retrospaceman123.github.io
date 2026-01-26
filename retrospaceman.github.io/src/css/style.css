@@ -2,7 +2,7 @@ html {
     background-color: black;
     font-family: sans-serif;
     color: white;
-    background-image: url("images/starPattern.png");
+    background-image: url("../assets/starPattern1.png");
 }
 
 header {
