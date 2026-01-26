@@ -1,0 +1,30 @@
+nav {
+    border: 3px dotted white;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline;
+    float: left;
+    padding: 10px;
+    margin: 0;
+    width: 100px;
+    height: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: lightgray;
+}
