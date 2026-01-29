@@ -8,3 +8,8 @@ html {
 body {
     text-align: center;
 }
+
+.subtitles {
+    font-style: italic;
+    font-size: small;
+}
