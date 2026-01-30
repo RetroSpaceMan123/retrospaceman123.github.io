@@ -1,9 +1,13 @@
+import pfpURL from '../assets/pfpspace.png';
+
 function About() {
+    const source = pfpURL;
+
     return (
         <>
             <div className="about">
                 <h2>About Me</h2>
-                <img src="./src/assets/pfpspace.png" alt="RetroSpaceMan123" />
+                <img src={source} alt="RetroSpaceMan123" />
                 <p className="subtitles">An old profile picture I made in 2021</p>
                 <p>Hello! My name is Carlos. I am a recent Computer Science graduate from the University of Florida. I have earned an Associate's of Arts from Santa Fe College, and I just earned a Bachelor's of Science from the College of Engineering at the University of Florida.</p>
                 <p>Although I have been programming since my childhood, I started consistently programming in 2018 with the creation of my first Discord bot. Since then I have had the privilege to work on a series of projects both on my own and with a team.</p>
