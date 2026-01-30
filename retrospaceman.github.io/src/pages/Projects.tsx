@@ -34,7 +34,7 @@ function Projects() {
             "Github Repository"
         ),
         new ProjectCardModel(
-            "IMDB Movie and TV Show Recomendation Algorithms",
+            "IMDB Database Recomendation Algorithms",
             "In the Fall of 2022, me and 2 other students implemented two data structures in order to create a recomendation algorithm for movie and tv shows. The algorithm takes in a movie or tv show as input, and if the piece of media is in its database, it gives a top 5 ranking for which movie or tv show to watch next.",
             "https://github.com/calebreverett/IMDBProject",
             "Github Repository"
