@@ -1,0 +1,20 @@
+html {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    background-image: url("../assets/starPattern.png");
+}
+
+body {
+    text-align: center;
+}
+
+.subtitles {
+    font-style: italic;
+    font-size: small;
+}
+
+.project_list {
+    display: flex;
+    justify-content: center;
+}

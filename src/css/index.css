@@ -1,0 +1,43 @@
+form {
+    display: inline-block;
+    text-align: left;
+    border: 3px dotted white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+
+form input, form textarea {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+form button {
+    font-size: large;
+    font-weight: bold;
+    background-color: grey;
+    border: 3px dotted white;
+    color: white;
+}
+
+.text_box {
+    background-color: black;
+}
+
+.project_card {
+    display: inline-block;
+    text-align: center;
+    border: 3px dotted white;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    width: 320px;
+    height: 480px;
+    background-color: gray;
+}
+
+#project_cards {
+    display: flex;
+    justify-content: center;
+}

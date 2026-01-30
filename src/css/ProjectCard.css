@@ -1,0 +1,26 @@
+.project_card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px dotted white;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    min-width: 150px;
+    min-height: 500px;
+    background-color: gray;
+}
+
+.project_card h3 {
+    margin-top: 0;
+}
+
+.project_card p {
+    flex-grow: 1;
+}
+
+.project_card a {
+    color: white;
+    font-weight: bold;
+    margin-top: auto;
+}
