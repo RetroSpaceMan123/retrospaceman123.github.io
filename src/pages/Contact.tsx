@@ -4,7 +4,7 @@ function Contact() {
             <h2>Contact Me</h2>
             <p>Please fill out this form if you wish to contact me. Please leave you email and contact information below so I can respond when I can.</p>
             <form action="https://formsubmit.co/retrospaceman123@gmail.com" method="POST">
-                <input type="hidden" name="_next" value={window.location.origin + "/success"}/>
+                <input type="hidden" name="_next" value="retrospaceman123.github.io/success"/>
                 <label htmlFor="name">Name</label><br />
                 <input type="text" id="name" name="name" placeholder="Your Name" required /><br />
                 <label htmlFor="email">Email</label><br />
