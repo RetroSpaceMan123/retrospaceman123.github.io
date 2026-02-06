@@ -5,7 +5,7 @@ function About() {
 
     return (
         <>
-            <div className="about">
+            <div className="page-content">
                 <h2>About Me</h2>
                 <img src={source} alt="RetroSpaceMan123" />
                 <p className="subtitles">An old profile picture I made in 2021</p>
@@ -13,7 +13,7 @@ function About() {
                 <p>Although I have been programming since my childhood, I started consistently programming in 2018 with the creation of my first Discord bot. Since then I have had the privilege to work on a series of projects both on my own and with a team.</p>
                 <p>I have also completed an internship at Miami-Dade County ITD during the summer of 2023, which taught me how software engineers operate in a real-world setting.</p>
                 <p>I am currently looking for a full-time position for a software engineer to start working in a field I feel passionate about.</p>
-                </div>
+            </div>
         </>
     )
 }

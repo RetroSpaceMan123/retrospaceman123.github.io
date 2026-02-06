@@ -43,7 +43,7 @@ function Projects() {
     
     return (
         <>
-            <div className="projects">
+            <div className="page-content">
                 <h2>My Featured Projects</h2>
                 <div className="project_list">
                     {projects.map((project) => (
