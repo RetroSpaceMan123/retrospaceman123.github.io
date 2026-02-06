@@ -8,7 +8,9 @@ interface Star {
 }
 
 function StarBackground() {
-  const stars: Star[] = Array.from({ length: 750 }, (_, i) => ({
+  const star_denisity = 0.0005; // Adjust this value to increase/decrease star density
+  const star_count = document.documentElement.clientWidth * document.documentElement.clientHeight * star_denisity;
+  const stars: Star[] = Array.from({ length: star_count }, (_, i) => ({
     id: i,
     left: Math.random() * 100,
     top: Math.random() * 100,
