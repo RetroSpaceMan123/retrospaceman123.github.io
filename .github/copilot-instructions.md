@@ -14,8 +14,9 @@ This is a **React + TypeScript personal portfolio website** using Vite as the bu
 
 ### Component Organization
 - **Page components** ([src/pages/](../src/pages/)): Full-page views rendered via Routes
-- **Shared components** ([src/components/](../src/components/)): Header, Footer, NavBar, ProjectCard
-- **Models** ([src/models/](../src/models/)): `ProjectCardModel` - TypeScript class for type-safe project data
+- **Shared components** ([src/components/](../src/components/)): Partial UI elements used across pages (e.g., `ProjectCard`, `StarBackground`)
+- **Models** ([src/models/](../src/models/)): Simple TypeScript classes for type-safe data structures (e.g., `ProjectCardModel`)
+- **Services** ([src/services/](../src/services/)): Utility functions or classes that encapsulate logic (e.g., `StarArray` for generating star data)
 
 ### Data Flow Pattern
 Projects page displays `ProjectCardModel` instances. The model is a simple class with four properties: `name`, `description`, `url`, `urlLabel`. Always use this model when creating project-related features rather than inline objects.
