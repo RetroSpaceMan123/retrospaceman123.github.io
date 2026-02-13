@@ -1,21 +1,11 @@
 import '../css/StarBackground.css'
-
-interface Star {
-  id: number
-  left: number
-  top: number
-  delay: number
-}
+import { Star } from '../models/Star'
+import { StarArray } from '../services/StarArray'
 
 function StarBackground() {
   const star_denisity = 0.0005; // Adjust this value to increase/decrease star density
   const star_count = document.documentElement.clientWidth * document.documentElement.clientHeight * star_denisity;
-  const stars: Star[] = Array.from({ length: star_count }, (_, i) => ({
-    id: i,
-    left: Math.random() * 100,
-    top: Math.random() * 100,
-    delay: (Math.random() * 3) - 3,
-  }))
+  const stars: Star[] = StarArray(star_count);
 
   return (
     <div className="star-background">
