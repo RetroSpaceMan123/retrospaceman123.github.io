@@ -15,16 +15,3 @@ footer {
     gap: 2.5px;
     padding: 5px;
 }
-
-.footer-links {
-    display: flex;
-    gap: 15px;
-}
-
-.footer-links a {
-    color: white;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}

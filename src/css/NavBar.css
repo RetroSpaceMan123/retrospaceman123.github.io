@@ -1,8 +1,3 @@
-nav {
-    border: 3px dotted white;
-    border-radius: 5px;
-}
-
 nav ul {
     list-style-type: none;
     display: flex;
@@ -14,8 +9,9 @@ nav ul {
     text-decoration: none;
     color: white;
     text-align: center;
-    display: inline;
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     margin: 0;
     width: 150px;
