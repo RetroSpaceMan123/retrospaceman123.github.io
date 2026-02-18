@@ -15,7 +15,7 @@ function Contact() {
                     <label htmlFor="phone">Phone Number</label><br />
                     <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required /><br />
                     <label htmlFor="info">Message</label><br />
-                    <textarea id="info" name="info" rows={10} cols={60} placeholder="Your message goes here" required></textarea><br />
+                    <textarea id="info" name="info" rows={10} cols={40} placeholder="Your message goes here" required></textarea><br />
                     <button type="submit">Send</button>
                 </form>
             </div>
