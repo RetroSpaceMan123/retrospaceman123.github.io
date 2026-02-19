@@ -21,4 +21,9 @@
     color: white;
     font-weight: bold;
     margin-top: auto;
+    text-decoration: none;
+}
+
+.project_card a:hover {
+    text-decoration: underline;
 }

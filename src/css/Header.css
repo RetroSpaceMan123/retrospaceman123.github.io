@@ -24,6 +24,10 @@ header {
     font-weight: bold;
 }
 
+.title:hover {
+    text-decoration: underline;
+}
+
 .pfp {
     width: 75px;
     height: 75px;
@@ -39,6 +43,7 @@ header {
 
 .header-links a {
     color: white;
+    text-decoration: none;
 }
 
 .header-links a:hover {

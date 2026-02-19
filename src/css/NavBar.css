@@ -20,6 +20,5 @@ nav ul {
 }
 
 .nav-link:hover {
-    background-color: lightgray;
-    opacity: 0.5;
+    text-decoration: underline;
 }
