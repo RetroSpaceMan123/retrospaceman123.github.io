@@ -1,10 +1,12 @@
 function Home() {
     return (
-        <div className="home">
+        <div className="page-content">
             <h2>Welcome to RetroSpaceMan123.io!</h2>
-            <p>This is the personal website for Carlos Leonardo Avila, also know as RetroSpaceMan123. Here you can see the programming projects I have been a part of throughout the years.</p>
-            <p>This site is currently undergoing a redesign using modern web dev tools. Changes in this website will be more common until the transformation is complete.</p>
-            <p>Click on one of the tabs in the navigation bar above to find more information.</p>
+            <p>This is my personal website where you can see the programming projects I have been a part of throughout the years.</p>
+            <p>If you wish to learn more about me, click on the About tab in the navigation bar above.</p>
+            <p>If you wish to see the projects I have worked on, click on the Projects tab in the navigation bar above.</p>
+            <p>If you wish to contact me, click on the Contact tab in the navigation bar above.</p>
+            <p>Thank you for visiting my website, and I hope you enjoy your stay!</p>
         </div>
     )
 }

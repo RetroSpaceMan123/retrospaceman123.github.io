@@ -6,9 +6,7 @@
     border-radius: 5px;
     padding: 25px;
     margin: 25px;
-    min-width: 150px;
-    min-height: 500px;
-    background-color: gray;
+    max-width: 300px;
 }
 
 .project_card h3 {
@@ -23,4 +21,9 @@
     color: white;
     font-weight: bold;
     margin-top: auto;
+    text-decoration: none;
+}
+
+.project_card a:hover {
+    text-decoration: underline;
 }

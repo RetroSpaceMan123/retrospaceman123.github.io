@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import { ProjectCardModel } from "../models/ProjectCardModel";
 
 function Projects() {
-    let projects = [
+    const projects = [
         new ProjectCardModel(
             "ChromeClash",
             "In the Spring of 2024, I organized a group of five members to create a competative multiplayer shooter based on the chess ELO system. I made the matchmaking system, as well as all of the functionality of the promotional website.",
@@ -43,7 +43,7 @@ function Projects() {
     
     return (
         <>
-            <div className="projects">
+            <div className="page-content">
                 <h2>My Featured Projects</h2>
                 <div className="project_list">
                     {projects.map((project) => (

@@ -1,20 +1,16 @@
-html {
-    background-color: black;
-    font-family: sans-serif;
-    color: white;
-    background-image: url("../assets/starPattern.png");
-}
-
-body {
-    text-align: center;
-}
-
 .subtitles {
     font-style: italic;
     font-size: small;
 }
 
 .project_list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
+}
+
+.page-content {
+    min-height: 50vh;
+    margin: 0;
+    padding: 3vh;
 }
